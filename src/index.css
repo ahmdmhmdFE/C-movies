@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply h-screen text-black bg-gray-100 dark:bg-gray-700 dark:text-white;
+}
+
+main {
+  @apply flex flex-row items-center justify-start rounded-none;
+}
+
+section {
+  @apply grow;
+}
